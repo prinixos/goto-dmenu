@@ -1,0 +1,3 @@
+#Caution if you include '#' character anywhere in a line the whole line would be commented
+#Name                       | Path                                              | Program
+Paths                       | ~/.config/goto-dmenu/paths                        | nvim

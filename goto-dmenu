@@ -1,0 +1,13 @@
+#!/bin/sh
+choice=$(cat $HOME/.config/goto-dmenu/paths | sed '/#/d' | dmenu -l 8 -nb "#0F0F0F" -sb "#E53935" -p "Goto: ")
+rawpath=$(echo $choice | awk -F '|' '{print $2}')
+path=$(echo $rawpath | sed 's|~|'"$HOME"'|g')
+
+comand=$(echo $choice | awk -F '|' '{print $3}')
+
+if [ "$comand" ]
+then
+    alacritty -e $comand $path
+else
+    alacritty --working-directory $path
+fi
