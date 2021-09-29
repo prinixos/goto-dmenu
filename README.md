@@ -17,7 +17,7 @@ Just run the installation script it will handle everything for you
   sudo ./install.sh
 ```
 
-# Configuration
+## Configuration
 
 ```bash
    nvim ~/.config/goto-dmenu/paths
