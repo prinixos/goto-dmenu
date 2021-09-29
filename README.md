@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/75466650/135155450-ebbbd64e-de51-46fe-
 ## Dependencies
 - Awk
 - Sed
-- (prinixos dmenu)[https://github.com/prinixos/dmenu.git]
+- [prinixos dmenu](https://github.com/prinixos/dmenu.git)
 
 
 ## Installation
